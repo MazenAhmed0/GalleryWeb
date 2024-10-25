@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Code for Nav Bar */
+.name a{
+    list-style: none;
+    background-color: rgb(109, 24, 188);
+    font-size: 30px;
+}
+
+.name a:hover{
+    color: black;
+}
+
+.navList{
+    background-color: rgb(109, 24, 188);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navList .navItem{
+    padding: 7px 15px;
+    background-color: rgb(109, 24, 188);
+}
+
+.navList .navItem a{
+    color: white;
+    background-color: rgb(109, 24, 188);
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-size 1s;
+    padding: 5px 15px;
+}
+
+
+.navList .navItem a:hover{
+    color: black;
+    font-size: x-large;
+}
+/* Nav Bar end */
+
+
+/* Welcome Section */
+
+.welcomeSection{
+    margin: 50px 0px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcomeSection .welcomeText{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.welcomeSection .welcomeText span{
+    color: blueviolet;
+}
+
+.welcomeSection .welcomeImg img{
+    height: 450px;
+    border-radius: 10px;
+}
+/* Welcome section end */
+
+/* About section Start */
+
+.aboutHeaderText{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-shadow: 5px 1px 15px blueviolet;
+}
+
+.aboutSection{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutSection .aboutImg img{
+    height: 300px;
+    border-radius: 15px;
+    filter: blur(1px);
+    transition: filter 1s;
+}
+
+.aboutSection .aboutImg img:hover{
+    filter: blur(0);
+}
+
+.aboutSection .aboutText{
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+}
+.aboutSection .aboutText h3{
+    color: blueviolet;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+/* About section end */
+
+/* Gallery */
+
+.gallerySection .galleryText{
+    margin: 70px 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-shadow: 5px 1px 15px blueviolet;
+}
+
+.gallerySection .galleryImgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    margin-bottom: 50px;
+}
+
+.gallerySection img{
+    width: 100%;
+    /* border: px solid white; */
+    border-radius: 10px;
+    transition: width 1s;
+    
+}
+
+.gallerySection img:hover{
+    width: 105%;
+}
+
+.column{
+    flex: 25%;
+    max-width: 15%;
+    padding: 0 8px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Contact Form */
+
+.contactText{
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-shadow: 5px 1px 15px blueviolet;
+}
+.contactInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contactSection .contactPhoto img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color: rgb(207, 207, 207);
+}
+.contactSection .contactForm form input, textarea{
+    resize: none;
+    display: block;
+    width: 250px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+
+.contactSection .contactForm form input[type="submit"]{
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
