@@ -203,25 +203,96 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .welcomeSection{
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        height: 75vh;
+    } 
+    .welcomeImg img{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
 
-}
+    /* about */
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+    .aboutSection{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        height: 1000px;
+        margin-bottom: 250px;
+    }
     
+    .aboutSection .aboutText{
+        margin: auto;
+    }
+    .aboutSection img{
+        margin-bottom: 20px;
+    }
+
+    /* contact */
+    .contactInfo .contactForm{
+        margin: auto;
+    }
+    .contactInfo div img{
+        display: none;
+    }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width:  992px) {
+    .navList .navItem{
+        display: none;
+    }
+
+    .welcomeSection .welcomeText{
+        font-size: 25px;
+    }
+    .welcomeSection .welcomeImg img{
+        height: 300px;
+    }
+
+    /* about */
+
+    .aboutSection{
+        height: 220px;
+    }
+
+    .aboutSection .aboutImg img {
+        height: 200px;
+    }
+
+    .aboutSection .aboutText{
+        font-size: 15px;
+        /* padding: 50px; */
+        width: 350px;
+    }
+
+    /* gallery */
+
+    .gallerySection .galleryText{
+        margin: 50px 0;
+    }
     
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+    .gallerySection img{
+        width: 100%;
+        /* border: px solid white; */
+        border-radius: 10px;
+        transition: width 1s;
+        
+    }
     
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+    .thgroup, .fogroup{
+        display: none;
+    }
+    
+    
+    .column{
+        max-width: 25%;
+        padding: 0 8px;
+    }
     
 }
